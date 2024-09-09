@@ -8,7 +8,232 @@
   <link href='https://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet'>
   <link href="https://fonts.cdnfonts.com/css/apercu-pro" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Noto Nastaliq Urdu' rel='stylesheet'>
-                
+   <style type="text/css">
+      body{
+        display: flex;
+        margin: 0;
+        padding: 40px 0px 0px 0px;
+        gap: 40px;
+      }
+
+      table{
+        border-spacing: 0;
+      }
+
+      td{
+        padding: 0;
+      }
+
+      img{
+        border: 0;
+      }
+
+      .wrapper{
+        width: 100%;
+        table-layout: fixed;
+      }
+
+      .main{
+        width: 100%;
+        max-width: 600px;
+        background-color: #fff;
+      }
+
+      .logo{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 49.03px;
+        text-align: center;
+        font-family: 'Noto Sans';
+        
+      }
+
+      .border{
+        background-color: #000;
+        padding: 0px 30px;
+        width: 540px;
+      }
+
+      .hero{
+        display: grid;
+        padding: 20px;
+        gap: 24px;
+
+      }
+
+      .big-title{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 49.03px;
+        text-align: center;
+        font-family: 'Noto Sans'
+      }
+
+      .hero-container{
+        display: block;
+        border-radius: 20px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .hero-texts{
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 24px;
+        text-align: center;
+        font-family: 'Noto Sans'
+      }
+
+      .button{
+        margin: auto;
+        color: #000;
+        display: flex;
+        border-style: solid;
+        border-radius: 4px;
+        border-width: 1px;
+        padding: 13px;
+        gap: 10px;
+        cursor: pointer;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Noto Sans';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.13px;
+        text-align: center;
+
+      }
+
+      .section-button{
+
+        color: #000;
+     
+        border-style: solid;
+        border-radius: 4px;
+        border-width: 1px;
+        padding: 13px;
+        gap: 10px;
+        cursor: pointer;
+        background-color: #fff;
+
+        
+        align-items: center;
+        font-family: 'Noto Sans';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.13px;
+        text-align: center;
+
+      }
+     
+      .section-1{
+        padding: 16px;
+      }
+
+      .padding{
+        display: flex;
+        gap:10px;
+      }
+
+      .two-columns{
+        display: flex;
+      }
+
+      .content-title{
+        font-weight: 700;
+        font-family: 'Noto Sans';
+        font-size: 27px;
+        line-height: 34px;
+        color: #1C1E23;
+        margin:0;
+      }
+
+ 
+
+      .text{
+        font-family: 'Noto Sans';
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 24px;
+      }
+
+      .padding-text{
+        gap: 16px;
+        padding: 16px 12px;
+        display: flex;
+      }
+      .padding-img{
+        padding: 0px 12px 0px 12px;
+      }
+
+      .text-1{
+        font-family: 'Apercu Pro', sans-serif;
+        padding: 0px 0px 0px 30px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30.7px;
+      }
+
+      .footer{
+        display: flex;
+        gap: 17px;
+      }
+
+      .footer-content{
+
+        display: flex;
+        margin: auto  ;
+        gap: 25px;
+        width: 100%;
+        justify-content: center;
+      }
+
+
+      .footer-h5, .footer-h5-2{
+        font-family: 'Noto Nastaliq Urdu';
+        font-size: 13px;
+        line-height: 18.52px;
+        text-align: center;
+        font-weight: 400;
+      }
+
+      .footer-paras{
+        font-family: 'Noto Sans';
+        font-size: 13px;
+        line-height: 18.52px;
+        text-align: center;
+        font-weight: 400;
+        width: 347px;
+        height: 21px;
+      }
+
+      .social-media{
+        display: flex;
+        gap: 26px;
+        justify-content: center;
+      }
+
+      .twitter, .insta, .youtube, .basketball, .linked-in{
+        height: 24px;
+        width: 24px;
+      }
+
+      .footer-h5-2{
+        text-decoration: underline;
+      }
+
+      .social{
+        width: 24px;
+        
+
+      }
+
+   </style>             
 </head>
 <body>
 
@@ -28,11 +253,8 @@
             <p class="hero-texts">
               Boost your emails with Blush! Create dope emails easy and fast!  Install the Blush plugin to customize all the illustrations!
             </p>
-            <div class="button-cover">
-              <button class="button"> 
-                <span class="button-span">Try it now!</span>
-              </button>
-            </div>
+            <a href="#" class="button">Try it now!</a>
+           
        
         </td>
       </tr>
@@ -65,11 +287,7 @@
                             <td>
                               <h4 class="content-title">Customize this email template!</h4>
                               <p class="text">Boost your emails with Blush! Create dope emails easy and fast! </p>
-                              <div class="button-section">
-                                <button class="button"> 
-                                  <span class="button-span">Try it now!</span>
-                                </button>
-                              </div></td>
+                              <a href="#" class="section-button">Try it now!</a>
                           </tr>
                         </table>
                       </td>
@@ -100,11 +318,7 @@
                             <td>
                               <h4 class="content-title">Customize this email template!</h4>
                               <p class="text">Boost your emails with Blush! Create dope emails easy and fast! </p>
-                              <div class="button-section">
-                                <button class="button"> 
-                                  <span class="button-span">Try it now!</span>
-                                </button>
-                              </div></td>
+                              <a href="#" class="section-button">Try it now!</a>
                           </tr>
                         </table>
                       </td>
@@ -164,11 +378,7 @@
                             <td>
                               <h4 class="content-title">Customize this email template!</h4>
                               <p class="text">Boost your emails with Blush! Create dope emails easy and fast! </p>
-                              <div class="button-section">
-                                <button class="button"> 
-                                  <span class="button-span">Try it now!</span>
-                                </button>
-                              </div></td>
+                              <a href="#" class="section-button">Try it now!</a>
                           </tr>
                         </table>
                       </td>
@@ -205,45 +415,25 @@
       <!-- --FOOTER SECTION-- -->
       <tr>
         <td class="footer">  
-          <table class="footer-content">
+          <table width="100%" class="footer-content">
             <tr>
-              <td>
-                <h5 class="footer-h5">Corporation</h5>
+              <td style="padding: 45px 20px; text-align: center;">
+                <p class="footer-h5">Corporation</p>
                 <p class="footer-paras">You are receiving this email because you opted in via our website.</p>
-              </td>
-              
-            </tr>
-          </table>
-            <tr>
-            <td class="social-media">
-              <img class="twitter" src="/images/twitter.png" alt="">
-              <img class="insta" src="/images/insta.png" alt="">
-              <img class="youtube" src="/images/youtube.png" alt="">
-              <img class="basketball" src="/images/basketball.png" alt="">
-              <img class="linked-in" src="/images/linkedIn.png" alt="">
-            </td>
-          </tr>
-
-
-          <table class="footer-content">
-            <tr>
-              <td>
+                <img src="images/twitter.png" class="social" alt="">
+                <img src="images/insta.png" class="social" alt="">
+                <img src="images/youtube.png" class="social" alt="">
+                <img src="images/basketball.png" class="social" alt="">
+                <img src="images/linkedIn.png" class="social" alt="">
+             
+                
                 <p class="footer-paras">Address, #PC <br> City, State</p>
                 <h5 class="footer-h5-2">Unsubscribe</h5>
-                
+                <h1 class="logo">LOGO</h1>
               </td>
               
             </tr>
-          </table>
-      
-          <tr>
-            <td>
-              <h1 class="logo">LOGO</h1>
-            </td>
-          </tr>
 
-        </td>
-      </tr>
           
 
     </table>
