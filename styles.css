@@ -21,8 +21,16 @@ td{
 img{
   border: 0;
 }
+
+@media (min-width: 600px){
+  .wrapper{
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+}
 .wrapper{
- 
+  
   table-layout: fixed;
 }
 
