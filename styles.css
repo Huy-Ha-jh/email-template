@@ -1,0 +1,202 @@
+
+
+
+body{
+  display: flex;
+  margin: 0;
+  padding: 40px 0px 0px 0px;
+  gap: 40px;
+
+
+}
+
+table{
+  border-spacing; 0;
+}
+
+td{
+  padding: 0;
+}
+
+img{
+  border: 0;
+}
+.wrapper{
+ 
+  table-layout: fixed;
+}
+
+.main{
+  width: 100%;
+  max-width: 600px;
+  background-color: #fff;
+}
+
+.logo{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49.03px;
+  text-align: center;
+  font-family: 'Noto Sans';
+  
+}
+
+.border{
+  background-color: #000;
+  padding: 0px 30px;
+  width: 540px;
+}
+
+.hero{
+  display: grid;
+  padding: 20px;
+  gap: 24px;
+
+}
+
+.big-title{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49.03px;
+  text-align: center;
+  font-family: 'Noto Sans'
+}
+
+.hero-container{
+  display: block;
+  border-radius: 20px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-texts{
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+  text-align: center;
+  font-family: 'Noto Sans'
+}
+
+.button{
+  display: flex;
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 1px;
+  padding: 13px;
+  gap: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  
+
+}
+.button-cover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-span{
+  font-family: 'Noto Sans';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.13px;
+  text-align: center;
+}
+.section-1{
+  padding: 16px;
+}
+
+.padding{
+  display: flex;
+  gap:10px;
+}
+
+.two-columns{
+  display: flex;
+}
+
+.content-title{
+  font-weight: 700;
+  font-family: 'Noto Sans';
+  font-size: 27px;
+  line-height: 34px;
+  color: #1C1E23;
+  margin:0;
+}
+
+.section-button{
+  display: flex;
+}
+
+.text{
+  font-family: 'Noto Sans';
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+}
+
+.padding-text{
+  gap: 16px;
+  padding: 16px 12px;
+  display: flex;
+}
+.padding-img{
+  padding: 0px 12px 0px 12px;
+}
+
+.text-1{
+  font-family: 'Apercu Pro', sans-serif;
+  padding: 0px 0px 0px 30px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30.7px;
+}
+
+.footer{
+  display: flex;
+  gap: 17px;
+}
+
+.footer-content{
+
+  display: grid;
+
+  gap: 25px;
+  width: 100%;
+  justify-content: center;
+}
+
+
+.footer-h5, .footer-h5-2{
+  font-family: 'Noto Nastaliq Urdu';
+  font-size: 13px;
+  line-height: 18.52px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.footer-paras{
+  font-family: 'Noto Sans';
+  font-size: 13px;
+  line-height: 18.52px;
+  text-align: center;
+  font-weight: 400;
+  width: 347px;
+  height: 21px;
+}
+
+.social-media{
+  display: flex;
+  gap: 26px;
+  justify-content: center;
+}
+
+.twitter, .insta, .youtube, .basketball, .linked-in{
+  height: 24px;
+  weight: 24px;
+}
+
+.footer-h5-2{
+  text-decoration: underline;
+}
